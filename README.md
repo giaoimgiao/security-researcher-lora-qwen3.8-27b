@@ -1,6 +1,6 @@
 <div align="center">
 
-# 安全研究员 · LoRA · Qwen3.6-27B
+# 安全研究员 · LoRA · Qwen3.6
 
 **FP16 / FP32 LoRA · 生产环境实战 Agent 渗透数据集微调**
 
