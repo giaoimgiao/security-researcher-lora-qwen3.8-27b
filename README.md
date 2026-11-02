@@ -12,7 +12,7 @@
 ![Steps](https://img.shields.io/badge/steps-1731-success)
 ![Hardware](https://img.shields.io/badge/trained%20on-1%C3%9764GB%20DCU-red)
 
-> **EN** — A LoRA adapter for Qwen3.6-27B, fine-tuned on a curated real-world offensive-security agent dataset harvested from production engagements: 0-day source auditing, live-server patch bypass, full CVE chain reproduction, and reverse engineering of ByteDance's Android product family. **Lifts a 27B model to top-tier pentest capability.**
+> **EN** — A LoRA adapter for Qwen3.8-27B, fine-tuned on a curated real-world offensive-security agent dataset harvested from production engagements: 0-day source auditing, live-server patch bypass, full CVE chain reproduction, and reverse engineering of ByteDance's Android product family. **Lifts a 27B model to top-tier pentest capability.**
 
 </div>
 
