@@ -1,6 +1,6 @@
 <div align="center">
 
-# 安全研究员 · LoRA · Qwen3.6
+# 安全研究员 · LoRA · Qwen3.8
 
 **FP16 / FP32 LoRA · 生产环境实战 Agent 渗透数据集微调**
 
@@ -226,4 +226,4 @@ python scripts/train_lora.py /path/to/Qwen3.6-27B-INT8-w8a8 \
 
 ## License
 
-Apache-2.0（底模 Qwen3.6-27B 同为 Apache-2.0）
+Apache-2.0（底模 Qwen3.8-27B 我仓库写错名字了，不是3.6，不要下错底模 同为 Apache-2.0）
