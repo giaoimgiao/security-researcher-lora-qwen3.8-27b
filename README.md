@@ -1,10 +1,11 @@
 <div align="center">
 
-# 安全研究员 · LoRA · Qwen3.8
+# 安全研究员 · LoRA · Qwen3.8-27B
 
 **FP16 / FP32 LoRA · 生产环境实战 Agent 渗透数据集微调**
 
-[![Download Weights](https://img.shields.io/badge/⬇%20DOWNLOAD%20WEIGHTS-v1.0%20(223MB)-brightgreen?style=for-the-badge&logo=github)](https://github.com/giaoimgiao/security-researcher-lora-qwen3.6-27b/releases/tag/v1.0)
+[![FP16 223MB](https://img.shields.io/badge/⬇%20FP16%20223MB-v1.0-brightgreen?style=for-the-badge&logo=github)](https://github.com/giaoimgiao/security-researcher-lora-qwen3.8-27b/releases/tag/v1.0)
+[![FP32 445.6MB](https://img.shields.io/badge/⬇%20FP32%20445.6MB-v1.0--fp32-blue?style=for-the-badge&logo=github)](https://github.com/giaoimgiao/security-researcher-lora-qwen3.8-27b/releases/tag/v1.0-fp32)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 ![Adapter](https://img.shields.io/badge/adapter-223MB%20fp16%20%2F%20445.6MB%20fp32-informational)
@@ -20,14 +21,18 @@
 
 ## 权重下载
 
-**[⬇ lora_final_fp16.pt — 223 MB](https://github.com/giaoimgiao/security-researcher-lora-qwen3.6-27b/releases/tag/v1.0)**
+两种精度分开发布，按用途选择：
 
-- fp16 分发版：`lora_final_fp16.pt` · sha256 `ebe2c73b…`
-- fp32 原始版：`lora_final.pt` · 445.6 MB · 训练时保存的精度基准
+| 文件 | 精度 | 大小 | 下载 |
+|---|---|---|---|
+| `lora_final_fp16.pt` | fp16 | **223 MB** | **[v1.0 · FP16](https://github.com/giaoimgiao/security-researcher-lora-qwen3.8-27b/releases/tag/v1.0)** |
+| `lora_final_fp32.pt` | fp32 | **445.6 MB** | **[v1.0 · FP32](https://github.com/giaoimgiao/security-researcher-lora-qwen3.8-27b/releases/tag/v1.0-fp32)** |
+
+- **推理 / 分发** → FP16（223 MB），相对误差 < 1e-3
+- **数值对比 / 二次微调起点 / 精度基准** → FP32（445.6 MB），训练时保存的原始精度
+- fp32 sha256 `b29dcd003c14cf4dcbaa64ba37a249a9`
 - 加载方式见 [四、快速开始](#四快速开始)，生成时必须 `enable_thinking=True`
 
-| | |
-|---|---|
 | **Adapter 体积** | 223 MB (fp16) / 445.6 MB (fp32) |
 | **可训练参数** | 116.73 M — 占 27B 的 0.43% |
 | **覆盖层数** | 496 层 Linear 全覆盖（不只 q/k/v） |
@@ -197,7 +202,7 @@ enc = tok.apply_chat_template(msgs, add_generation_prompt=True,
 ## 六、复现训练
 
 ```bash
-python scripts/train_lora.py /path/to/Qwen3.6-27B-INT8-w8a8 \
+python scripts/train_lora.py /path/to/Qwen3.8-27B-INT8-w8a8 \
   DATA=train_final.jsonl SEQ=2048 EPOCHS=1 LR=1e-4 OUT=./lora_out
 ```
 
@@ -226,4 +231,4 @@ python scripts/train_lora.py /path/to/Qwen3.6-27B-INT8-w8a8 \
 
 ## License
 
-Apache-2.0（底模 Qwen3.8-27B 我仓库写错名字了，不是3.6，不要下错底模 同为 Apache-2.0）
+Apache-2.0（底模 Qwen3.8-27B 同为 Apache-2.0）
