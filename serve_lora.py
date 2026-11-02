@@ -529,7 +529,7 @@ class H(BaseHTTPRequestHandler):
                 et = ck.get('enable_thinking')
         if et is None and body.get('thinking') is not None:
             et = body.get('thinking')
-        thinking = False if et is None else bool(et)
+        thinking = True if et is None else bool(et)
         stream = bool(body.get('stream'))
 
         try:
