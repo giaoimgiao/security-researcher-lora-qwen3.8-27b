@@ -15,8 +15,7 @@
 
 <img src="assets/banner.png" alt="Security Researcher LoRA Qwen3.8-27B" width="880">
 
-> **EN** — A LoRA adapter for Qwen3.8-27B
-
+> 
 </div>
 
 ---
