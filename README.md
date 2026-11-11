@@ -1,8 +1,7 @@
+# 安全研究员 · LoRA · Qwen3.8-27B
+
 <div align="center">
 <img src="assets/banner.png" alt="Security Researcher LoRA Qwen3.8-27B" width="880">
-
-
-# 安全研究员 · LoRA · Qwen3.8-27B
 
 **FP16 / FP32 LoRA · 生产环境实战 Agent 渗透数据集微调**
 
