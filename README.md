@@ -1,8 +1,6 @@
-   # 安全研究员 
-# LoRA.Qwen3.8-27B
-
 <div align="center">
-<img src="assets/banner.png" alt="Security Researcher LoRA Qwen3.8-27B" width="880">
+
+# 安全研究员 · LoRA · Qwen3.8-27B
 
 **FP16 / FP32 LoRA · 生产环境实战 Agent 渗透数据集微调**
 
@@ -14,6 +12,8 @@
 ![Params](https://img.shields.io/badge/trainable-116.73M%20(0.43%25)-orange)
 ![Steps](https://img.shields.io/badge/steps-1731-success)
 ![Hardware](https://img.shields.io/badge/trained%20on-1%C3%9764GB%20DCU-red)
+
+<img src="assets/banner.png" alt="Security Researcher LoRA Qwen3.8-27B" width="880">
 
 > **EN** — A LoRA adapter for Qwen3.8-27B, fine-tuned on a curated real-world offensive-security agent dataset harvested from production engagements: 0-day source auditing, live-server patch bypass, full CVE chain reproduction, and reverse engineering of ByteDance's Android product family. **Lifts a 27B model to top-tier pentest capability.**
 
