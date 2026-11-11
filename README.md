@@ -15,7 +15,7 @@
 
 <img src="assets/banner.png" alt="Security Researcher LoRA Qwen3.8-27B" width="880">
 
-> **EN** — A LoRA adapter for Qwen3.8-27B, fine-tuned on a curated real-world offensive-security agent dataset harvested from production engagements: 0-day source auditing, live-server patch bypass, full CVE chain reproduction, and reverse engineering of ByteDance's Android product family. **Lifts a 27B model to top-tier pentest capability.**
+> **EN** — A LoRA adapter for Qwen3.8-27B
 
 </div>
 
