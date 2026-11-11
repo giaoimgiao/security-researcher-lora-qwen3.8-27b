@@ -1,7 +1,7 @@
-> [!CAUTION]
-> **严重事故：** 做数据集清洗的时候不小心丢失 `tools` 字段，目前正在重新训练，**请不要下载现有 lora 权重。**
-
 <div align="center">
+<img src="assets/banner.png" alt="Security Researcher LoRA Qwen3.8-27B" width="880">
+
+
 # 安全研究员 · LoRA · Qwen3.8-27B
 
 **FP16 / FP32 LoRA · 生产环境实战 Agent 渗透数据集微调**
