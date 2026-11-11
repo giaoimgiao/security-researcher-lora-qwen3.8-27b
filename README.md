@@ -1,4 +1,5 @@
-# 安全研究员 · LoRA · Qwen3.8-27B
+   # 安全研究员 
+# LoRA.Qwen3.8-27B
 
 <div align="center">
 <img src="assets/banner.png" alt="Security Researcher LoRA Qwen3.8-27B" width="880">
